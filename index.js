@@ -1,15 +1,15 @@
 function scuberGreetingForFeet(scuberGreetingForFeet){
 }
   // Write your code here!
-  function scuberGreetingForFeet(someNumber) {
+  function scuberGreetingForFeet(city) {
 
-    if (someNumber <= 400){
+    if (city <= 400){
             return "This one is on me!";
     }
-    else if (someNumber > 2000 && someNumber < 2500){
+    else if (city > 2000 && city < 2500){
         return "I will gladly take your thirty bucks.";
     }
-    else if(someNumber > 2500){
+    else if(city > 2500){
         return "No can do.";
     }
   
